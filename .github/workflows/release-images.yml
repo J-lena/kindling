@@ -3,6 +3,9 @@ name: Push-Images
 on:
   release:
     types: [published]
+  push:
+    branches:    
+      - 'actions'
   workflow_dispatch:
 
 jobs:
