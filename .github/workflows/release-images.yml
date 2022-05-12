@@ -28,6 +28,4 @@ jobs:
         with:
           src: kindlingproject/kindling-grafana:latest-alpha
           dst: |
-           # kindlingproject/kindling-grafana:${{env.version}}
-           # kindlingproject/kindling-grafana:latest
-            kindlingproject/kindling-grafana:latest-alpha-test
+            kindlingproject/kindling-grafana:retag
